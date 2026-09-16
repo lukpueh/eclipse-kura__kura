@@ -99,3 +99,4 @@ jobs:
           sbom-file: ${{ env.PRODUCT_PATH }}/target/bom.json
           product-name: 'kura-core'
           product-version: ${{ steps.get-version.outputs.PROJECT_VERSION }}
+          staging: true
